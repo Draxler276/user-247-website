@@ -7,6 +7,7 @@ const cartCountDisplay = document.getElementById('cart-count');
 
 // Step 3: Add an event listener to the button
 addToCartButton.addEventListener('click', function() {
+    event.preventDefault();
     // Step 4: Increment the cart count
     cartCount++;
 
